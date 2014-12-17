@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/modnet3d_progressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="visible">
+        <ProgressBar
+              style="?android:attr/progressBarStyleLarge"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:indeterminate="true"/>
+    </LinearLayout>
+    
+    
+    <GridView 
+        android:id="@+id/modnet3d_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:columnWidth="120dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:visibility="gone">
+    </GridView>
+  
+    
+
+   
+
+</LinearLayout>

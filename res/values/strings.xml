@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SynBio</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="search">search</string>
+    <string-array name="keyword_array">
+        <item>Molecule Name: </item>
+        <item>EC Number: </item>
+        <item>Pathway Name: </item>
+        
+    </string-array>
+    <string-array name="ecoli3d_category">
+        <item>Pathway ID:</item>
+        <item>Pathway Name:</item>
+        <item>Compound ID:</item>
+        <item>Compound Name:</item>
+    </string-array>
+    
+    <string-array name="keyword_example">
+        <item>S-adenosyl-L-methionine</item>
+        <item>2.1.1.13</item>
+        <item>methionine biosynthesis</item>
+    </string-array>
+    
+    <string-array name="keyword_id">
+        <item>molname</item>
+        <item>ECNumber</item>
+        <item>PwName</item>
+        
+        
+    </string-array>
+    <string name="main_homepage">首页</string>
+    <string name="main_more">更多</string>
+    <string name="fragment_homepage_rxnfinder">rxnfinder</string>
+    <string name="fragment_homepage_news">新闻</string>
+    <string name="fragment_homepage_ecoli">ecoli</string>
+    <string name="activity_rxnfinder_example">example</string>
+    <string name="activity_rxnfinder_search">search</string>
+    <string name="picture_prefix">http://cadd.whu.edu.cn</string>
+    <string name="fragment_searchresult_loading">Loading....</string>
+    <string name="fragment_searchresult_preference">com.zhr.synbio_preferences</string>
+    <string name="websetting_picture">websetting_showpicture</string>
+    <string name="fragment_searchresult_havepicture">有图</string>
+    <string name="fragment_searchresult_nopicture">无图</string>
+    <string name="wisdombydengzixin">在合成生物学在全世界蓬勃发展的历史性机遇面前，发展和建立合成生物学新理论、新方法及相应的技术支撑体系，这对提升我国现代化生物技术水平、抢占合成生物学研究制高点有极大的意义.</string>
+    <string name="wisdombyyangshengli">通过设计多部件之间的协调运作建立复杂的系统，并对代谢网络流量进行精细调控，从而构建人工细胞行为来实现药物、功能材料与能源替代品的大规模生产。</string>
+    <string name="wisdombyzhaoguoping">合成生物学技术上升至以工程化“模型设计与模块制造”为导向的更高台阶。</string>
+    <string name="dengzixin">邓子新</string>
+    <string name="yangshengli">杨胜利</string>
+    <string name="zhaoguoping">赵国屏</string>
+    <string name="click_loading_more">点击加载更多</string>
+    <string name="click_reload">点击重新加载</string>
+    
+    <string name="news_clear_cache">清楚图片缓存</string>
+    
+    <string name="audio_input">语音输入</string>
+    
+    
+    
+</resources>

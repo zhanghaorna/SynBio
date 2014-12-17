@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:text="From:"
+        android:layout_width="fill_parent"
+        android:layout_height="27dip"
+        />
+    <Spinner 
+        android:id="@+id/layout_searchpath_spinner_from"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+     <TextView 
+        android:text="To:"
+        android:layout_width="fill_parent"
+        android:layout_height="27dip"
+        />
+    <Spinner 
+        android:id="@+id/layout_searchpath_spinner_to"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <Button 
+        android:id="@+id/layout_searchpath_button_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        />
+    <TextView 
+        android:id="@+id/layout_searchpath_textview_noresultmatched"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <ListView
+        android:id="@+id/layout_searchpath_listview_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+﻿{
+    "news": [
+        {
+            "title": "不幸福",
+            "summary": "不幸福不幸福不幸福不幸福不幸福不幸福不幸福",
+            "date": "2014-04-01",
+            "link": "http: //m.hupu.com/bbs/9200501.html"
+        },
+        {
+            "title": "幸福",
+            "summary": "幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福",
+            "date": "2014-03-31",
+            "link": "http://m.hupu.com/bbs/9195872.html"
+        },
+        {
+            "title": "药",
+            "summary": "药药药药药药药药药药药药",
+            "date": "2014-04-01",
+            "link": "http://m.hupu.com/bbs/9198081.html"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    
+    
+    
+   
+
+    <RadioGroup 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/lightgray"
+        
+        android:id="@+id/bottombutton">
+        <ImageButton 
+            android:id="@+id/backward"
+            android:src="@drawable/backward"
+            android:gravity="fill"
+            style="@style/webview_bottombutton"/>
+        <ImageButton 
+            android:id="@+id/goward"
+            android:src="@drawable/goward"
+            android:gravity="fill"
+            style="@style/webview_bottombutton"/>
+        <ImageButton 
+            android:id="@+id/setting"
+            android:src="@drawable/web_setting"
+            android:gravity="fill"
+            style="@style/webview_bottombutton"/>                
+    </RadioGroup>
+     
+     
+
+    
+    <WebView 
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottombutton"
+        android:gravity="center"/>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottombutton"
+        android:id="@+id/search_result_networknull_textview"
+        android:gravity="center"
+        android:text="@string/click_reload"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        />
+    
+
+
+</RelativeLayout>

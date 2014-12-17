@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+    
+    
+    <TextView
+       
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:text="Category"
+        android:textColor="#FF6666"
+        android:gravity="center|left"
+        android:background="#CCFFFF"/>
+    
+    
+    <Spinner 
+        android:id="@+id/modnet3d_search_category_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#66CC99"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:text="Detail"
+        android:textColor="#FF6666"
+        android:gravity="center|left"
+        android:background="#CCFFFF"/>
+    
+    
+    
+    <Spinner 
+        android:id="@+id/modnet3d_search_result_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#66CC99"/>
+    
+    <Button
+        android:id="@+id/modnet3d_search_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Search"
+        android:background="@drawable/normal_button_selector"/>
+    
+
+    
+
+    <ListView 
+        android:id="@+id/modnet3d_pathwaty_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:background="#66CC99"></ListView>
+    
+    
+
+    
+    
+
+</LinearLayout>

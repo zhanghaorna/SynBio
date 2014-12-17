@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:text="Category"
+        android:textColor="#FF6666"
+        android:gravity="center|left"
+        android:background="#CCFFFF"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Spinner 
+            android:id="@+id/keywordspinner"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center|left"/>
+        <Button 
+            android:text="@string/activity_rxnfinder_example"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:onClick="onbtnExample"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:text="Value"
+        android:textColor="#FF6666"
+        android:gravity="center|left"
+        android:background="#CCFFFF"/>    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+           android:id="@+id/keywordName" 
+           android:layout_width="0dp"
+           android:layout_weight="5"
+           android:layout_height="40dp"/>
+        <Button 
+            android:id="@+id/audio_recognize"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/audio_input"/>
+    </LinearLayout>
+
+    
+    
+    <Button 
+        android:id="@+id/KeywordsSearch"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_rxnfinder_search"
+        android:onClick="onbtnSearch" 
+        android:background="@drawable/normal_button_selector"/>
+    
+ 
+
+</LinearLayout>
